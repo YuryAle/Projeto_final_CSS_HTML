@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+.conteiner h2{
+    font-size: 25px;
+    font-weight: bold;
+}
 header{
     padding: 16px;
     background-color: rgb(228, 31, 97);
@@ -55,6 +59,7 @@ section .conteiner h2{
     gap: 16px;
     list-style: none;
     padding: 0;
+    margin-top: 32px;
 }
 .pictures img{
     width: 300px;
@@ -62,8 +67,15 @@ section .conteiner h2{
     object-fit: cover;
     border-radius: 10px;
 }
-
-
+#fotos .conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; 
+}
+#fotos {
+    background-color: rgba(228, 32, 97, 0.5)
+}
 
 
 
