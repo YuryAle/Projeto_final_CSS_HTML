@@ -3,6 +3,15 @@
     margin: 0;
     padding: 0;
 }
+header,
+section h2,
+form button{
+    font-family: "Alumni Sans SC", sans-serif;
+    font-weight: bold;
+}
+body, input, textarea{
+    font-family: "Roboto", sans-serif;
+}
 .conteiner h2{
     font-size: 25px;
     font-weight: bold;
@@ -71,11 +80,69 @@ section .conteiner h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white; 
 }
 #fotos {
     background-color: rgba(228, 32, 97, 0.5)
 }
+#fotos h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+form input,
+form textarea,
+form button{
+    width: 100%;
+    max-width: 320px;
+    width: 320px;
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border:1px solid rgba(228, 32, 97, 0.5)
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+#nos .conteiner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+#nos h2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: bold;
+}
+input:focus , textarea:focus{
+    outline-color: rgba(228, 32, 97, 0.5);
+}
+form button{
+    background-color: rgb(228, 31, 97);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgba(228, 32, 97, 0.5);
+}
+footer{
+    background-color:rgb(228, 31, 97);
+    color:white ;
+}
+#rodape .conteiner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#sobre p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
 
 
 
